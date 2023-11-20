@@ -22,4 +22,4 @@ I am looking for a post-doc position. Before that, I did my PhD at school of SEI
 
 I visited NUS, advised by [Prof. Shao Lin](https://linsats.github.io/) and collaborated with [Prof. Harold Soh](https://haroldsoh.com/). 
 
-My research focuses on human-centric intelligent system: **brain**-robot interface, **muscle**-actuated control, visual-**tactile** perception, **dexterous** manipulation. I found and lead the [RobotFlow project](https://robotflow.ai), which contains full-stack solution to multi-modal perception, planning and control, multi-physics & musculoskeletal simulation. This infrastructure supports all the research in my team!
+My research focuses on human-centric intelligent system: **brain**-robot interface, **muscle**-actuated control, visual-**tactile** perception, **dexterous** manipulation. I found and lead the [RobotFlow project](https://robotflow.ai), which contains full-stack solutions to multi-modal perception, planning and control, multi-physics & musculoskeletal simulation. This infrastructure supports all the research in my team!
