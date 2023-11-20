@@ -1,61 +1,96 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Wenqiang Xu",
+    "label": "Ph.D",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "vinjohn@sjtu.edu.cn",
+    "phone": "",
+    "url": "https://wenqiangx.github.io/",
+    "summary": "Human is the only generalist agent we know.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "",
+      "postalCode": "",
+      "city": "",
+      "countryCode": "",
+      "region": ""
     },
     "profiles": [
       {
         "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "username": "",
+        "url": ""
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "name": "National University of Singapore",
+      "position": "Visiting Student",
+      "url": "",
+      "startDate": "2023-03-15",
+      "endDate": "2023-09-01",
+      "summary": "Advisor: Prof. Shao Lin",
       "highlights": [
-        "Relativity"
+        "Robot-assisted dressing."
+      ]
+    },
+    {
+      "name": "ZenusTech",
+      "position": "Intern in Physics Simulation",
+      "url": "",
+      "startDate": "2022-03-01",
+      "endDate": "2023-03-01",
+      "summary": "Advisor: Xinxin Zhang",
+      "highlights": [
+        "Rigid simulation, constraints, high performance computing."
       ]
     }
   ],
   "volunteer": [],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "Shanghai Jiao Tong University, Shanghai, China",
+      "url": "https://www.sjtu.edu.cn/",
+      "area": "Embodied AI",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
+      "startDate": "2019-09-01",
+      "endDate": "2023-08-30",
       "score": "",
       "courses": [
-        "Theory of Relativity"
+        "Object-centric Manipulation Understanding", "Infrastructure for Embodied AI"
+      ]
+    },
+    {
+      "institution": "Shanghai Jiao Tong University, Shanghai, China",
+      "url": "https://www.sjtu.edu.cn/",
+      "area": "Computer Vision",
+      "studyType": "Master",
+      "startDate": "2017-09-01",
+      "endDate": "2019-06-30",
+      "score": "",
+      "courses": [
+        "Object Detection, Segmentation"
+      ]
+    },
+    {
+      "institution": "University of Science and Technology of China, Hefei, China",
+      "url": "https://www.ustc.edu.cn/",
+      "area": "Organic Chemistry",
+      "studyType": "Bachelor",
+      "startDate": "2011-09-01",
+      "endDate": "2015-06-30",
+      "score": "",
+      "courses": [
+        "School of the Gifted Young"
       ]
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Yunfan Award",
+      "date": "2021",
+      "awarder": "World Conference on Artificial Intelligence (WAIC)",
+      "summary": ""
     }
   ],
   "certificates": [],
@@ -63,7 +98,7 @@
   "skills": [],
   "languages": [
     {
-      "language": "German",
+      "language": "Chinese",
       "fluency": "Native speaker"
     },
     {

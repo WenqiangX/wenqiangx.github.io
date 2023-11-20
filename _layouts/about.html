@@ -47,6 +47,12 @@ layout: default
             {%- include news.html limit=true %}
           {%- endif %}
 
+          <!-- Talks -->
+          {% if page.talks and site.announcements.enabled -%}
+            <h2><a href="{{ '/talks/' | relative_url }}" style="color: inherit;">talks</a></h2>
+            {%- include talks.html limit=true %}
+          {%- endif %}
+
           <!-- Latest posts -->
           {% if page.latest_posts -%}
             <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">latest posts</a></h2>
