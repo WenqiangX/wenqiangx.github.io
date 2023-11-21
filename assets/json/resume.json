@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Wenqiang Xu",
-    "label": "Ph.D",
+    "label": "",
     "image": "",
     "email": "vinjohn@sjtu.edu.cn",
     "phone": "",
     "url": "https://wenqiangx.github.io/",
-    "summary": "Human is the only generalist agent we know.",
+    "summary": "",
     "location": {
       "address": "",
       "postalCode": "",
@@ -25,7 +25,7 @@
   "work": [
     {
       "name": "National University of Singapore",
-      "position": "Visiting Student",
+      "position": "Visiting Scholar",
       "url": "",
       "startDate": "2023-03-15",
       "endDate": "2023-09-01",
@@ -36,7 +36,7 @@
     },
     {
       "name": "ZenusTech",
-      "position": "Intern in Physics Simulation",
+      "position": "R&D Intern in Physics Simulation",
       "url": "",
       "startDate": "2022-03-01",
       "endDate": "2023-03-01",
@@ -64,7 +64,7 @@
       "institution": "Shanghai Jiao Tong University, Shanghai, China",
       "url": "https://www.sjtu.edu.cn/",
       "area": "Computer Vision",
-      "studyType": "Master",
+      "studyType": "M.Sc",
       "startDate": "2017-09-01",
       "endDate": "2019-06-30",
       "score": "",
