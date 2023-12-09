@@ -18,9 +18,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am actively seeking a postdoctoral position. My PhD and MS was completed at the School of SEIEE, Shanghai Jiao Tong University, under the supervision of **Prof. Cewu Lu**. This experience was a continuation of my master's studies, which I also pursued in the same lab. Prior to this, I earned my bachelor's degree from the School of the Gifted Young at the University of Science and Technology of China.
+I am actively seeking a postdoctoral position. My PhD and MS was completed at the School of SEIEE, Shanghai Jiao Tong University, under the supervision of **Prof. Cewu Lu**. Prior to this, I earned my bachelor's degree from the School of the Gifted Young at the University of Science and Technology of China.
 
-I was visiting NUS, advised by [Prof. Shao Lin](https://linsats.github.io/) and collaborated with [Prof. Harold Soh](https://haroldsoh.com/). 
+I once visited NUS, I was advised by [Prof. Shao Lin](https://linsats.github.io/) and collaborated with [Prof. Harold Soh](https://haroldsoh.com/). 
 
 I founded and lead the [RobotFlow](https://robotflow.ai), which contains full-stack solutions to multi-modal perception, planning and control, and multiphysics & musculoskeletal simulation. This infrastructure is supporting all research projects in my team!
-My research spectrum is shifting from object understanding to human-centric learning, with an interest on areas such as **brain**-robot interfaces, **muscle**-actuated control, visual-**tactile** perception, and **dexterous** manipulation. Something cool is ongoing!
+My research spectrum is shifting from object understanding to human-centric learning, with an interest in areas such as **brain**-robot interfaces, **muscle**-actuated control, **dexterous** manipulation and visual-**tactile** perception. Something cool is ongoing!
