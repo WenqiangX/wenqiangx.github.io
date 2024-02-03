@@ -49,10 +49,10 @@
   "volunteer": [],
   "education": [
     {
-      "institution": "Shanghai Jiao Tong University, Shanghai, China",
+      "institution": "Wen-Tsün Wu Honorable Class, Shanghai Jiao Tong University, Shanghai, China",
       "url": "https://www.sjtu.edu.cn/",
       "area": "Embodied AI",
-      "studyType": "PhD",
+      "studyType": "PhD (with Honor)",
       "startDate": "2019-09-01",
       "endDate": "2023-08-30",
       "score": "",
@@ -73,7 +73,7 @@
       ]
     },
     {
-      "institution": "University of Science and Technology of China, Hefei, China",
+      "institution": "School of the Gifted Young, University of Science and Technology of China, Hefei, China",
       "url": "https://www.ustc.edu.cn/",
       "area": "Organic Chemistry",
       "studyType": "Bachelor",
@@ -81,7 +81,7 @@
       "endDate": "2015-06-30",
       "score": "",
       "courses": [
-        "School of the Gifted Young"
+        ""
       ]
     }
   ],
