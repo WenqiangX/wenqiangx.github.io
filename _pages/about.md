@@ -23,4 +23,5 @@ I am actively seeking a postdoctoral position. My PhD and MS was completed at th
 I once visited NUS, I was advised by [Prof. Shao Lin](https://linsats.github.io/) and collaborated with [Prof. Harold Soh](https://haroldsoh.com/). 
 
 I founded and lead the [RobotFlow](https://robotflow.ai), which contains full-stack solutions to multi-modal perception, planning and control, and multiphysics & musculoskeletal simulation. This infrastructure is supporting all research projects in my team!
+
 My research spectrum is shifting from object understanding to human-centric learning, with an interest in areas such as **brain**-robot interfaces, **muscle**-actuated control, **dexterous** manipulation and visual-**tactile** perception. Something cool is ongoing!

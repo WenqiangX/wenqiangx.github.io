@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2022-07-08
+date: 2022-09-10 16:11:00-0400
 inline: true
 related_posts: false
 ---
 
-1 paper is nominated for **Best Paper Award/Best Student Paper Award and Best RoboCup Award** in IROS 2022!
+1 paper is accepted by CoRL 2022 as **Oral** representation. 
