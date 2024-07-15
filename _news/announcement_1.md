@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2022-09-10 16:11:00-0400
+date: 2022 07:59:00-0400
 inline: true
 related_posts: false
 ---
 
-1 paper is accepted by CoRL 2022 as **Oral** representation. 
+6 papers are accepted by IROS/CVPR/CoRL/ICRA/TIP, including 1 IROS **Best RoboCup Award & Best Paper Finalist**, 1 CVPR **Oral**, 1 CoRL **Oral**. 
