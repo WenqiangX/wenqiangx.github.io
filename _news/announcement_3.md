@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-2 papers are accepted by CVPR 2023.
+6 papers are accepted by CVPR/RSS/ICCV/CoRL, including 1 ICCV <strong>Oral</strong>.
