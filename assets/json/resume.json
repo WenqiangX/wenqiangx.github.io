@@ -3,7 +3,7 @@
     "name": "Wenqiang Xu",
     "label": "",
     "image": "",
-    "email": "vinjohn@sjtu.edu.cn",
+    "email": "vinjohn@nus.edu.sg",
     "phone": "",
     "url": "https://wenqiangx.github.io/",
     "summary": "",
@@ -23,6 +23,28 @@
     ]
   },
   "work": [
+    {
+      "name": "National University of Singapore",
+      "position": "Research Manager",
+      "url": "",
+      "startDate": "2025-10-15",
+      "endDate": "2026-10-15",
+      "summary": "Advisor: Prof. Shao Lin",
+      "highlights": [
+        "Dexterous Manipulation."
+      ]
+    },
+    {
+      "name": "Shanghai Jiao Tong University",
+      "position": "Postdoctoral Researcher",
+      "url": "",
+      "startDate": "2023-09-26",
+      "endDate": "2025-09-25",
+      "summary": "Advisor: Prof. Lu Cewu",
+      "highlights": [
+        "Visual-tactile Learning."
+      ]
+    },
     {
       "name": "National University of Singapore",
       "position": "Visiting Scholar",
@@ -86,6 +108,18 @@
     }
   ],
   "awards": [
+    {
+      "title": "Forbes China 30 Under 30",
+      "date": "2025",
+      "awarder": "Forbes China",
+      "summary": ""
+    },
+    {
+      "title": "MIT C.C. Tung Global Collboration Fellowship",
+      "date": "2025",
+      "awarder": "MIT",
+      "summary": ""
+    },
     {
       "title": "Yunfan Award",
       "date": "2021",
