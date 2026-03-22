@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-06-26 07:59:00-0400
+date: 2026-01-31 07:59:00-0400
 inline: true
 related_posts: false
 ---
 
-1 paper is accepted by ICCV 2025.
+2 papers are accepted by ICRA 2025.
