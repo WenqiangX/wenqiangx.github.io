@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2026-10-01 07:59:00-0400
+date: 2026-06-16 07:59:00-0400
 inline: true
 related_posts: false
 ---
 
-I joined the **Institute of Trustworthy Embodied AI**, Fudan University as an **Assistant Professor**.
+2 papers are accepted by IROS 2026.
