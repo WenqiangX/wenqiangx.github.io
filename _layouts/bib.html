@@ -64,13 +64,25 @@
             {%- if forloop.first == false -%},&nbsp;{%- endif -%}
             {%- if forloop.last and author_array_limit == author_array_size -%}and&nbsp;{%- endif -%}
           {%- endif -%}
+          {%- comment -%}
+            A trailing † on the surname marks the corresponding author. Render it
+            as an envelope icon on the page, but keep the dagger in the BibTeX.
+          {%- endcomment -%}
+          {%- assign is_corresponding = false -%}
+          {%- if author.last contains "†" -%}
+            {%- assign is_corresponding = true -%}
+          {%- endif -%}
+          {%- assign author_display_last = author.last | remove: "†" -%}
+          {%- capture corresponding_mark -%}
+            {%- if is_corresponding -%}<i class="fas fa-envelope corresponding-author" title="Corresponding author"></i>{%- endif -%}
+          {%- endcapture -%}
           {%- if author_is_self -%}
-            <strong>{{author.first}} {{author.last}}</strong>
+            <strong>{{author.first}} {{author_display_last}}</strong>{{ corresponding_mark }}
           {%- else -%}
             {%- if coauthor_url -%}
-              <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
+              <a href="{{coauthor_url}}">{{author.first}} {{author_display_last}}</a>{{ corresponding_mark }}
             {%- else -%}
-              {{author.first}} {{author.last}}
+              {{author.first}} {{author_display_last}}{{ corresponding_mark }}
             {%- endif -%}
           {%- endif -%}
         {%- endfor -%}
@@ -83,7 +95,8 @@
           {%- endif -%}
           {%- assign more_authors_show = '' -%}
           {%- for author in entry.author_array offset: author_array_limit -%}
-            {%- assign more_authors_show = more_authors_show | append: author.first | append: " " | append: author.last -%}
+            {%- assign more_author_last = author.last | remove: "†" -%}
+            {%- assign more_authors_show = more_authors_show | append: author.first | append: " " | append: more_author_last -%}
             {%- unless forloop.last -%}
               {%- assign more_authors_show = more_authors_show | append: ", " -%}
             {%- endunless -%}

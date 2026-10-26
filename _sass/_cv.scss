@@ -34,6 +34,76 @@ a.btncv:hover {
 }
 
 /*****************************
+ * CV ENTRY styles
+ * Two-column entries (date gutter + body) used by the work,
+ * education and awards sections. A fixed-width date column keeps
+ * the badges aligned down the page; collapses to one column on
+ * narrow screens.
+ *****************************/
+
+.cv-entry {
+  display: grid;
+  grid-template-columns: 8rem 1fr;
+  column-gap: 2rem;
+  row-gap: 0.4rem;
+  align-items: baseline;
+}
+
+.cv-entry-date {
+  .badge {
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 0.7rem;
+    letter-spacing: 0.02em;
+    padding: 0.3rem 0.5rem;
+  }
+
+  .location {
+    margin-top: 0.4rem;
+    margin-bottom: 0;
+  }
+}
+
+.cv-entry-title {
+  margin-bottom: 0.2rem;
+  font-size: 1rem;
+  line-height: 1.35;
+}
+
+.cv-entry-org {
+  margin-bottom: 0.15rem;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.cv-entry-note {
+  margin-bottom: 0;
+  font-size: 0.9rem;
+  font-style: italic;
+  line-height: 1.4;
+  color: var(--global-text-color-light);
+}
+
+ul.cv-entry-items {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  padding-left: 1.1rem;
+
+  li {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-bottom: 0.2rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .cv-entry {
+    grid-template-columns: 1fr;
+    row-gap: 0.5rem;
+  }
+}
+
+/*****************************
  * CV TIME_TABLE styles
  *****************************/
 

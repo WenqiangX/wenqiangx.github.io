@@ -459,6 +459,15 @@ footer.sticky-bottom {
   color: var(--global-text-color);
 }
 
+// Legend marker for the corresponding author, used in the publications page
+// description (which renders outside the .publications container).
+
+i.corresponding-author-legend {
+  color: var(--global-theme-color);
+  font-size: 0.8em;
+  vertical-align: baseline;
+}
+
 // Repositories
 
 @media (min-width: 768px) {
@@ -709,6 +718,13 @@ footer.sticky-bottom {
         >em {
           border-bottom: 1px solid;
           font-style: normal;
+        }
+
+        i.corresponding-author {
+          color: var(--global-theme-color);
+          font-size: 0.75em;
+          margin-left: 0.25em;
+          vertical-align: baseline;
         }
 
         >span.more-authors {

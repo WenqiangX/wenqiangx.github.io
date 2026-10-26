@@ -89,60 +89,93 @@
 @string{tro = "IEEE Transactions on Robotics"}
 
 
+@inproceedings{rigpi,
+  title={RigPI: Dynamic Parameter Identification of Rigid Body via VLM-Seeded Differentiable Simulation},
+  author={He, Xincheng and Zhang, Rongrong and Jiang, Wei and Xu†, Wenqiang},
+  booktitle=iros,
+  year={2026},
+  organization={IEEE},
+  abbr={IROS},
+  pdf={https://arxiv.org/abs/2606.25212},
+  code={https://github.com/Eigenoperator/RigPI},
+  bibtex_show={true}
+}
+
+@inproceedings{modevla,
+  title={Towards Human-Like Manipulation through RL-Augmented Teleoperation and Mixture-of-Dexterous-Experts VLA},
+  author={Tang, Tutian and Ji, Xingyu and Xing, Wanli and Hao, Ce and Xu, Wenqiang and Shao, Lin and Lu, Cewu and Yu, Qiaojun and Pang, Jiangmiao and Zhang, Kaifeng},
+  booktitle=iros,
+  year={2026},
+  organization={IEEE},
+  abbr={IROS},
+  pdf={https://arxiv.org/abs/2603.08122},
+  website={https://sites.google.com/view/mode-vla},
+  bibtex_show={true}
+}
+
+@inproceedings{sip,
+  title={Stereo-Inertial Poser: Towards Metric-Accurate Shape-Aware Motion Capture Using Sparse IMUs and a Single Stereo Camera},
+  author={Tang, Tutian and Ji, Xingyu and Li, Yutong and Liu, MingHao and Xu, Wenqiang and Lu, Cewu},
+  booktitle=icra,
+  year={2026},
+  organization={IEEE},
+  abbr={ICRA},
+  pdf={https://arxiv.org/abs/2603.02130},
+  website={https://sites.google.com/view/stereo-inertial-poser},
+  bibtex_show={true}
+}
+
+@inproceedings{fbi,
+  title={Flow Before Imitation: Learning Dexterous In-hand Manipulation with Dynamic Visuotactile Shortcut Policy},
+  author={Chen*, Yijin and Xu*, Wenqiang and Yu, Zhenjun and Tang, Tutian and Li, Yutong and Yao, Siqiong and Lu, Cewu},
+  booktitle=icra,
+  year={2026},
+  organization={IEEE},
+  abbr={ICRA},
+  pdf={https://arxiv.org/abs/2508.14441},
+  bibtex_show={true}
+}
+
 @inproceedings{vitamd,
   title={Dynamic Reconstruction of Hand-Object Interaction with Distributed Force-aware Contact Representation},
   author={Yu*, Zhenjun and Xu*, Wenqiang and Xie, Pengfei and Li, Yutong and Anthony, Brian and Zhang, Zhuorui and Lu, Cewu},
   booktitle=iccv,
-  pages={},
   year={2025},
   abbr={ICCV},
-  pdf={},
-  website={},
-  bibtex_show={true},
-  preview={},
-  award={},
-  selected={}
+  pdf={https://openaccess.thecvf.com/content/ICCV2025/papers/Yu_Dynamic_Reconstruction_of_Hand-Object_Interaction_with_Distributed_Force-aware_Contact_Representation_ICCV_2025_paper.pdf},
+  bibtex_show={true}
 }
 
 @inproceedings{fsglove,
   title={FSGlove: An Inertial-Based Hand Tracking System with Shape-Aware Calibration},
   author={Yutong Li and Wenqiang Xu and Jieyi Zhang and Tutian Tang and Cewu Lu},
   booktitle=iros,
-  pages={},
   year={2025},
   organization={IEEE},
   abbr={IROS},
-  pdf={},
-  website={},
+  pdf={https://arxiv.org/abs/2509.21242},
+  code={https://github.com/davidliyutong/fsglove},
   bibtex_show={true},
-  preview={},
-  award={Oral},
-  selected={}
+  award={Oral}
 }
 
 @inproceedings{kalib,
-  title={kalib: Easy Hand-Eye Calibration with Reference Point Tracking},
+  title={Kalib: Easy Hand-Eye Calibration with Reference Point Tracking},
   author={Tutian Tang* and Minghao Liu* and Wenqiang Xu and Cewu Lu},
   booktitle=iros,
-  pages={},
   year={2025},
   organization={IEEE},
   abbr={IROS},
-  pdf={},
-  website={},
+  pdf={https://arxiv.org/abs/2408.10562},
+  code={https://github.com/Learner209/Kalib},
   bibtex_show={true},
-  preview={},
-  award={Oral},
-  selected={}
+  award={Oral}
 }
 
 @article{dextog,
       title={DexTOG: Learning Task-Oriented Dexterous Grasp with Language Condition}, 
       author={Jieyi Zhang and Wenqiang Xu and Zhengjun Yu and Pengfei Xie and Tutian Tang and Cewu Lu},
       journal={IEEE Robotics and Automation Letters},
-      volume={},
-      number={},
-      pages={},
       year={2024},
       publisher={IEEE},
       abbr={RA-L},
@@ -150,17 +183,12 @@
       website={https://dextog.robotflow.ai/},
       bibtex_show={true},
       preview={dextog.png},
-      award={},
-      selected={}
 }
 
 @article{vitam,
       title={Capturing forceful interaction with deformable objects using a deep learning-powered stretchable tactile array}, 
       author={Chunpeng Jiang* and Wenqiang Xu* and Yutong Li and Zhenjun Yu and Longchun Wang and Xiaotong Hu and Zhengyi Xie and Qingkun Liu and Bin Yang and Xiaolin Wang and Wenxin Du and Tutian Tang and Dongzhe Zheng and Siqiong Yao and Cewu Lu and Jingquan Liu},
       journal={Nature Communications},
-      volume={},
-      number={},
-      pages={},
       year={2024},
       publisher={Nature Publishing Group UK London},
       abbr={NC},
@@ -168,7 +196,6 @@
       website={https://github.com/jeffsonyu/ViTaM},
       bibtex_show={true},
       preview={vitam.png},
-      award={},
       selected={true}
 }
 
@@ -176,9 +203,6 @@
       title={Intersection-free Robot Manipulation with Soft-Rigid Coupled Incremental Potential Contact}, 
       author={Wenxin Du* and Siqiong Yao* and Xinlei Wang and Yuhang Xu and Wenqiang Xu and Cewu Lu},
       journal={IEEE Robotics and Automation Letters},
-      volume={},
-      number={},
-      pages={},
       year={2024},
       publisher={IEEE},
       abbr={RA-L},
@@ -186,17 +210,12 @@
       website={https://sites.google.com/view/zema-ipc},
       bibtex_show={true},
       preview={zema.png},
-      award={},
-      selected={}
 }
 
 @article{cpf_pami,
   title={Learning a Contact Potential Field for Modeling the Hand-Object Interaction},
   author={Yang*, Lixin and Zhan*, Xinyu and Li, Kailin and Xu, Wenqiang and Zhang, Junming and Li, Jiefeng and Lu, Cewu},
   journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
-  volume={},
-  number={},
-  pages={},
   year={2024},
   publisher={IEEE},
   abbr={PAMI},
@@ -210,24 +229,18 @@
   title={MS-MANO: Enabling Hand Pose Tracking with Biomechanical Constraints},
   author={Xie*, Pengfei and Xu*, Wenqiang and Tang, Tutian and Yu, Zhenjun and Lu, Cewu},
   booktitle=cvpr,
-  pages={},
   year={2024},
   abbr={CVPR},
   pdf={https://arxiv.org/abs/2404.10227},
   website={https://ms-mano.robotflow.ai/},
   bibtex_show={true},
   preview={msmano.png},
-  award={},
-  selected={}
 }
 
 @article{tacipc,
   title={TacIPC: Intersection- and Inversion-free FEM-based Elastomer Simulation For Optical Tactile Sensors},
   author={Wenxin Du* and Wenqiang Xu* and Jieji Ren and Zhenjun Yu and Cewu Lu},
   journal={IEEE Robotics and Automation Letters},
-  volume={},
-  number={},
-  pages={},
   year={2024},
   publisher={IEEE},
   abbr={RA-L},
@@ -241,9 +254,6 @@
   title={Differentiable Cloth Parameter Identification and State Estimation in Manipulation},
   author={Dongzhe Zheng* and Siqiong Yao* and Wenqiang Xu and Cewu Lu},
   journal={IEEE Robotics and Automation Letters},
-  volume={},
-  number={},
-  pages={},
   year={2024},
   publisher={IEEE},
   abbr={RA-L},
@@ -257,17 +267,12 @@
       title={RFTrans: Leveraging Refractive Flow of Transparent Objects for Surface Normal Estimation and Manipulation}, 
       author={Tutian Tang* and Jiyu Liu* and Jieyi Zhang and Haoyuan Fu and Wenqiang Xu and Cewu Lu},
       journal={IEEE Robotics and Automation Letters},
-      volume={},
-      number={},
-      pages={},
       year={2024},
       publisher={IEEE},
       abbr={RA-L},
       pdf={https://ieeexplore.ieee.org/document/10432938},
       website={https://sites.google.com/view/rftrans},
       bibtex_show={true},
-      award={},
-      selected={},
       preview={rftrans.png},
 }
 
@@ -275,16 +280,12 @@
       title={DiPGrasp: Parallel Local Searching for Efficient Differentiable Grasp Planning}, 
       author={Wenqiang Xu* and Jieyi Zhang* and Tutian Tang and Zhenjun Yu and Yutong Li and Cewu Lu},
       journal={IEEE Robotics and Automation Letters},
-      volume={},
-      number={},
-      pages={},
       year={2024},
       publisher={IEEE},
       abbr={RA-L},
       pdf={https://arxiv.org/abs/2408.04738},
       website={https://dipgrasp.robotflow.ai},
       bibtex_show={true},
-      award={},
       selected={true},
       preview={dipgrasp.jpg},
 }
@@ -293,7 +294,6 @@
   title={Differentiable Fluid Physics Parameter Identification By Stirring and For Stirring},
   author={Wenqiang Xu* and Dongzhe Zheng* and Yutong Li and Jieji Ren and Cewu Lu},
   booktitle=iros,
-  pages={},
   year={2024},
   organization={IEEE},
   abbr={IROS},
@@ -332,8 +332,6 @@
   website={https://liuliu66.github.io/articulationobjects/},
   bibtex_show={true},
   preview={akb48.png},
-  award={},
-  selected={}
 }
 
 @inproceedings{tnt,
@@ -346,8 +344,6 @@
   website={https://sites.google.com/view/tac-needlethreading},
   bibtex_show={true},
   preview={tnt.gif},
-  award={},
-  selected={}
 }
 
 @inproceedings{unifolding,
@@ -360,8 +356,6 @@
   website={https://sites.google.com/view/unifolding},
   bibtex_show={true},
   preview={unifolding.gif},
-  award={},
-  selected={}
 }
 
 @inproceedings{clothpose,
@@ -389,8 +383,6 @@
   website={https://sites.google.com/view/rfuniverse/},
   bibtex_show={true},
   preview={rfu.gif},
-  award={},
-  selected={}
 }
 
 @inproceedings{vtaco,
@@ -404,8 +396,6 @@
   website={https://sites.google.com/view/vtaco/},
   bibtex_show={true},
   preview={vtaco.png},
-  award={},
-  selected={}
 }
 
 @inproceedings{garmenttracking,
@@ -419,8 +409,6 @@
   website={https://garment-tracking.robotflow.ai/},
   bibtex_show={true},
   preview={garmenttracking.gif},
-  award={},
-  selected={}
 }
 
 @inproceedings{robotube,
@@ -436,7 +424,6 @@
   bibtex_show={true},
   preview={robotube.png},
   award={Oral},
-  selected={}
 }
 
 @inproceedings{artiboost,
@@ -451,7 +438,6 @@
   bibtex_show={true},
   preview={artiboost.png},
   award={Oral},
-  selected={}
 }
 
 @inproceedings{sagci,
@@ -466,8 +452,6 @@
   website={https://sites.google.com/view/egci},
   bibtex_show={true},
   preview={sagci.png},
-  award={},
-  selected={}
 }
 
 @inproceedings{omad,
@@ -476,12 +460,10 @@
   booktitle=bmvc,
   year={2021},
   abbr={BMVC},
-  pdf={https://www.bmvc2021-virtualconference.com/assets/papers/0544.pdf},
+  pdf={https://www.bmva-archive.org.uk/bmvc/2021/assets/papers/0544.pdf},
   code={https://github.com/xiaoxiaoxh/OMAD},
   bibtex_show={true},
   preview={omad.png},
-  award={},
-  selected={}
 }
 
 @inproceedings{handtailor,
@@ -490,12 +472,10 @@
   booktitle=bmvc,
   year={2021},
   abbr={BMVC},
-  pdf={https://www.bmvc2021-virtualconference.com/assets/papers/0223.pdf},
+  pdf={https://www.bmva-archive.org.uk/bmvc/2021/assets/papers/0223.pdf},
   code={https://github.com/LyuJ1998/HandTailor},
   bibtex_show={true},
   preview={handtailor.png},
-  award={},
-  selected={}
 }
 
 @inproceedings{cpf,
@@ -509,8 +489,6 @@
   code={https://github.com/lixiny/CPF},
   bibtex_show={true},
   preview={cpf.png},
-  award={},
-  selected={}
 }
 
 @inproceedings{h2o,
@@ -524,8 +502,6 @@
   website={https://sites.google.com/view/handover-h2o/home},
   bibtex_show={true},
   preview={h2o.png},
-  award={},
-  selected={}
 }
 
 @inproceedings{bihand,
@@ -534,12 +510,10 @@
   booktitle=bmvc,
   year={2020},
   abbr={BMVC},
-  pdf={https://www.bmvc2020-conference.com/assets/papers/0250.pdf},
+  pdf={https://www.bmva-archive.org.uk/bmvc/2020/assets/papers/0250.pdf},
   code={https://github.com/lixiny/bihand},
   bibtex_show={true},
   preview={bihand.png},
-  award={},
-  selected={}
 }
 
 @inproceedings{eseseg,
@@ -553,8 +527,6 @@
   code={https://github.com/WenqiangX/ese_seg},
   bibtex_show={true},
   preview={eseseg.png},
-  award={},
-  selected={}
 }
 
 @inproceedings{srda,
@@ -568,8 +540,6 @@
   code={https://github.com/DirtyHarryLYL/SRDA-ECCV2018},
   bibtex_show={true},
   preview={srda.png},
-  award={},
-  selected={}
 }
 
 @article{reart48,
@@ -584,8 +554,6 @@
   pdf={https://ieeexplore.ieee.org/abstract/document/9670684/},
   bibtex_show={true},
   preview={reart48.png},
-  award={},
-  selected={}
 }
 
 @article{bidirection,
@@ -595,9 +563,6 @@
   year={2023},
   abbr={NN},
   bibtex_show={true},
-  preview={},
   pdf={https://www.sciencedirect.com/science/article/pii/S0893608023007499},
-  award={},
-  selected={},
   preview={bidirection.jpg},
 }

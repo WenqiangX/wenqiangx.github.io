@@ -1,17 +1,17 @@
 {
   "basics": {
     "name": "Wenqiang Xu",
-    "label": "",
+    "label": "Assistant Professor, Institute of Trustworthy Embodied AI, Fudan University",
     "image": "",
-    "email": "vinjohn@sjtu.edu.cn",
+    "email": "wenqiangxu@fudan.edu.cn",
     "phone": "",
     "url": "https://wenqiangx.github.io/",
-    "summary": "",
+    "summary": "Safety of human-robot interaction, with a focus on human motion mechanisms, omni-modal perception, high-frequency force control, and novel embodiment and sensor design.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "",
-      "countryCode": "",
+      "city": "Shanghai",
+      "countryCode": "CN",
       "region": ""
     },
     "profiles": [
@@ -23,6 +23,41 @@
     ]
   },
   "work": [
+    {
+      "name": "Institute of Trustworthy Embodied AI, Fudan University",
+      "position": "Assistant Professor",
+      "url": "https://teai.fudan.edu.cn",
+      "startDate": "2026-10-01",
+      "summary": "Safety of human-robot interaction",
+      "highlights": [
+        "Human motion mechanisms: musculoskeletal modeling and biomechanically grounded motion understanding.",
+        "Omni-modal perception: fusing vision, touch, force and proprioception for contact understanding.",
+        "High-frequency force control for safe physical human-robot interaction."
+      ]
+    },
+    {
+      "name": "National University of Singapore",
+      "position": "Research Fellow",
+      "url": "",
+      "startDate": "2025-10-01",
+      "endDate": "2026-10-31",
+      "summary": "Advisor: Prof. Shao Lin",
+      "highlights": [
+        "Robot-assisted dressing."
+      ]
+    },
+    {
+      "name": "Shanghai Jiao Tong University",
+      "position": "Assistant Research Fellow",
+      "url": "https://www.sjtu.edu.cn/",
+      "startDate": "2023-09-01",
+      "endDate": "2025-09-30",
+      "summary": "Advisor: Prof. Cewu Lu",
+      "highlights": [
+        "Visual-tactile perception and human-centric manipulation.",
+        "RobotFlow: full-stack infrastructure for embodied AI research."
+      ]
+    },
     {
       "name": "National University of Singapore",
       "position": "Visiting Scholar",
@@ -54,7 +89,7 @@
       "area": "Embodied AI",
       "studyType": "PhD (with Honor)",
       "startDate": "2019-09-01",
-      "endDate": "2023-08-30",
+      "endDate": "2023-09-30",
       "score": "",
       "courses": [
         "Object-centric Manipulation Understanding", "Infrastructure for Embodied AI"
@@ -80,9 +115,7 @@
       "startDate": "2011-09-01",
       "endDate": "2015-06-30",
       "score": "",
-      "courses": [
-        ""
-      ]
+      "courses": []
     }
   ],
   "awards": [
@@ -106,7 +139,47 @@
       "fluency": "Fluent"
     }
   ],
-  "interests": [],
+  "interests": [
+    {
+      "name": "Safe Human-Robot Interaction",
+      "keywords": [
+        "Physical human-robot interaction safety",
+        "Contact-rich manipulation around people"
+      ]
+    },
+    {
+      "name": "Human Motion Mechanisms",
+      "keywords": [
+        "Musculoskeletal modeling",
+        "Muscle-actuated control",
+        "Biomechanically grounded motion understanding"
+      ]
+    },
+    {
+      "name": "Omni-modal Perception",
+      "keywords": [
+        "Visual-tactile sensing",
+        "Force and proprioceptive fusion",
+        "Distributed tactile arrays"
+      ]
+    },
+    {
+      "name": "High-frequency Force Control",
+      "keywords": [
+        "Real-time compliant control",
+        "Differentiable physics for contact",
+        "Multiphysics simulation"
+      ]
+    },
+    {
+      "name": "Novel Embodiment and Sensor Design",
+      "keywords": [
+        "Hardware for safe physical interaction",
+        "Stretchable and distributed tactile sensors",
+        "Compliant mechanism design"
+      ]
+    }
+  ],
   "references": [],
   "projects": []
 }

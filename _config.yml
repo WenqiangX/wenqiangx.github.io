@@ -6,11 +6,13 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Wenqiang
 middle_name: 
 last_name: Xu
-email: vinjohn@sjtu.edu.cn
+email: wenqiangxu@fudan.edu.cn
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Wenqiang Xu's academic homepage.
+  Wenqiang Xu's academic homepage. Assistant Professor at the Institute of
+  Trustworthy Embodied AI, Fudan University, working on safe human-robot
+  interaction.
 footer_text: >
-keywords: Wenqiang Xu, 徐文强, wenqiangxu, Wenqiang, Robot, Learning, Computer, Vision  # add your own keywords or leave empty
+keywords: Wenqiang Xu, 徐文强, wenqiangxu, Wenqiang, Fudan, Robot, Human-Robot Interaction, Safety, Force Control, Tactile, Learning, Computer, Vision  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: icon.png  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -64,7 +66,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: robotflow-initiative # your GitHub user name
+github_username: drxslab # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
