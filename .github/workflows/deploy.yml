@@ -20,12 +20,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout 🛎️
-      uses: actions/checkout@v3
+      uses: actions/checkout@v5
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '3.2.2'
+        # Use a short version so the latest patch release of the series is
+        # picked. Newer runner images (ubuntu-26.04) only ship a build of the
+        # latest patch of each series, so pinning an exact patch like '3.2.2'
+        # fails there. ubuntu-26.04 only has CRuby >= 3.2.
+        ruby-version: '4.0'
         bundler-cache: true
+    - name: Setup Python
+      # The preinstalled runner Python is PEP 668 "externally managed", so a
+      # bare `pip3 install` into it fails. setup-python provides a standalone
+      # interpreter that pip can write to.
+      uses: actions/setup-python@v6
+      with:
+        python-version: '3.12'
     - name: Update _config.yml ⚙️
       uses: fjogeleit/yaml-update-action@v0.13.1
       with:
@@ -36,7 +47,8 @@ jobs:
     - name: Install and Build 🔧
       run: |
         pip3 install --upgrade jupyter
-        npm install -g mermaid.cli
+        # `mermaid.cli` is deprecated and unused by this site; `purgecss` is
+        # invoked below. ubuntu-26.04 no longer preinstalls global Node CLIs.
         npm install -g purgecss
         export JEKYLL_ENV=production
         bundle exec jekyll build --lsi
