@@ -366,6 +366,21 @@ blockquote {
         }
       }
     }
+
+    // The 小红书 mark ships as an inline SVG (no Font Awesome glyph exists for it),
+    // so it needs its own sizing and colour rules to track the icon font. The
+    // nudge centres the wordmark's ink on the square glyphs beside it.
+    .xiaohongshu-icon {
+      height: 0.62em;
+      width: auto;
+      vertical-align: 0.08em;
+      fill: var(--global-text-color);
+      transition: fill 0.2s ease-in-out;
+    }
+
+    a:hover .xiaohongshu-icon {
+      fill: var(--global-theme-color);
+    }
   }
 
   .contact-note {

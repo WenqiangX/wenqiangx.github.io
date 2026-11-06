@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I joined the **Institute of Trustworthy Embodied AI**, Fudan University as an **Assistant Professor**. I am recruiting students, interns and postdocs working on safe human-robot interaction.
+I joined the **Institute of Trustworthy Embodied AI**, Fudan University as an **Assistant Professor**. I am recruiting students, interns and postdocs working on safe robot interaction.

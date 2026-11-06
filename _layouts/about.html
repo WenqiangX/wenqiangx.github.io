@@ -53,6 +53,12 @@ layout: default
             {%- include talks.html limit=true %}
           {%- endif %}
 
+          <!-- Awards -->
+          {% if page.awards -%}
+            <h2>awards</h2>
+            {%- include awards.html %}
+          {%- endif %}
+
           <!-- Latest posts -->
           {% if page.latest_posts -%}
             <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">latest posts</a></h2>
